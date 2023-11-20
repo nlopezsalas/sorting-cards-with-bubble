@@ -1,0 +1,35 @@
+/* @import "~bootstrap/dist/css/bootstrap.min.css"; */
+body {
+  background-color: #27aa65;
+}
+.card {
+  max-width: 60px;
+  width: 60px;
+}
+.pokerCard {
+  padding: 0.3rem 0.3rem;
+}
+.pokerCard img {
+  width: 10px;
+  height: 10px;
+}
+.pokerCard .iTop {
+  line-height: 0;
+  vertical-align: top;
+  margin-bottom: 0.8rem;
+}
+.pokerCard .iBottom {
+  line-height: 0;
+  vertical-align: bottom;
+  margin-top: 0.8rem;
+}
+.pokerCard.red {
+  filter: invert(20%) sepia(243%) saturate(1576%) hue-rotate(-21deg)
+    brightness(137%) contrast(73%);
+}
+
+.invertIcon {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
