@@ -1,0 +1,32 @@
+{
+  "name": "node-mac",
+  "version": "1.0.1",
+  "description": "Support daemon creation and management on Mac.",
+  "keywords": [
+    "ngn",
+    "mac",
+    "daemon",
+    "service"
+  ],
+  "author": "Corey Butler <corey@coreybutler.com>",
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "main": "lib/node-mac.js",
+  "os": [
+    "darwin"
+  ],
+  "dependencies": {
+    "plist": "^3.0.1",
+    "yargs": "^15.4.0"
+  },
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coreybutler/node-mac.git"
+  },
+  "license": "MIT"
+}
